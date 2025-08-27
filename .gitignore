@@ -1,0 +1,38 @@
+# Entornos virtuales
+venv/
+.env/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# Archivos de configuración y secretos
+*.env
+*.log
+
+# Archivos de migración compilados
+migrations/**/__pycache__/
+migrations/*.pyc
+
+# Archivos de compilación de Python
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Archivos de Django
+staticfiles/
+media/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+
+# Otros
+.DS_Store
+
+# Entorno Virtual
+envDjango/

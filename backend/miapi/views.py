@@ -12,11 +12,11 @@ class UsuarioViewSet(viewsets.ModelViewSet):
     queryset = Usuario.objects.all()
     serializer_class = UsuarioSerializer
 
-class ReporteViewSer(viewsets.ModelViewSet):
+class ReporteViewSet(viewsets.ModelViewSet):
     queryset = Reporte.objects.all()
     serializer_class = ReporteSerializer
 
-class SectorViewSer(viewsets.ModelViewSet):
+class SectorViewSet(viewsets.ModelViewSet):
     queryset = Sector.objects.all()
     serializer_class = SectorSerializer
 
